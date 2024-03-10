@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(0, 0, 121), rgb(127, 0, 85));
+    animation: moveBackground 10s linear infinite /* Warna latar belakang, bisa disesuaikan */
+  }
+  
+  .text-container {
+    max-width: 600px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  .text {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1;
+    margin: 20px;
+    opacity: 0; /* Set opasitas awal menjadi 0 */
+    animation: fadeIn 1s ease-in-out forwards;
+    text-align: center;
+    
+    color: antiquewhite; /* Animasi muncul */
+  }
+  
+  #text1 {
+    animation-delay: 1s; /* Tunda muncul selama 1 detik */
+  }
+  #text2 {
+    animation-delay: 3s; /* Tunda muncul selama 1 detik */
+  }
+  
+  #text3 {
+    animation-delay: 5s; /* Tunda muncul selama 2 detik */
+  }
+  
+  #text4 {
+    animation-delay: 6.5s; /* Tunda muncul selama 3 detik */
+  }
+  
+  #text5 {
+    animation-delay: 8.5s; /* Tunda muncul selama 4 detik */
+  }
+  
+  #text6 {
+    animation-delay: 10s; /* Tunda muncul selama 5 detik */
+  }
+  
+  #text7 {
+    animation-delay: 11s; /* Tunda muncul selama 6 detik */
+  }
+  
+  #text8 {
+    animation-delay: 16s; /* Tunda muncul selama 7 detik */
+  }
+  
+  #text9 {
+    animation-delay: 17s; /* Tunda muncul selama 8 detik */
+  }
+  
+  #text10 {
+    animation-delay: 25s; /* Tunda muncul selama 9 detik */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Set opasitas menjadi 1 setelah animasi selesai */
+    }
+  }
+  
+  @keyframes moveBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+  }
+  
