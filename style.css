@@ -4,13 +4,13 @@ body {
     background-size: cover;
 }
 .jumbutroon {
-    width: 700px;
-    border: 1px solid black;
+    width: 400px;
+    border: 3px solid rgb(255, 255, 255);
     margin: 20px auto;
     padding: 10px;
-    box-shadow: 0px 0px 50px black;
+    box-shadow: 0px 0px 100px black;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.37);
     
 }
 img {
@@ -21,20 +21,24 @@ img {
     
 }
 audio {
-    margin-left: 180px;
+    margin-left: 50px;
     margin-bottom: 20px;
 }
-h2 {
-    margin-left: 140px;
+h3 {
+    margin-left: 45px;
+    color: rgb(255, 255, 255);
 }
 p {
     color: white;
+    text-align: justify;
+    line-height: 20px;
 }
 .text {
-    margin-left: 230px;
+    margin-left: 100px;
 }
 fieldset {
     color: white;
+    background-color: rgba(0, 0, 0, 0.452);
 }
 .clear {
     clear: left;
