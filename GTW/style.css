@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(gambar/bg.jpg);
+}
+.container {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.534);
+    margin: 100px auto;
+    padding: 20px;
+    color: white;
+    border-radius: 10%;
+}
+.box1 {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10%;
+    padding: 5px;
+}
+.box1-2 {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px black;
+}
+.box2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    padding: 5px;
+    
+}
+.box2-1 {
+    width: 50%;
+    height: 150px;
+    box-shadow: 0px 0px 20px black;
+    
+}
+.box2-1-1 {
+    width: 30%;
+    height: 20%;
+    margin: 40%;    
+    box-shadow: 0px 0px 20px black;
+}
+.box2-2 {
+    width: 50%;
+    height: 150px;
+    float: left;
+    box-shadow: 0px 0px 20px black;
+}
+.box2-2-1 {
+    width: 30%;
+    height: 20%;
+    margin: 40%;
+    box-shadow: 0px 0px 20px black;    
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+    font-size: 70%;
+}
+.box2-1-1:hover {
+    transform: scale(1.5);
+}
+p {
+    text-align: center;
+}
+.box2-2-1:hover {
+    transform: scale(1.5);
+}
+ 

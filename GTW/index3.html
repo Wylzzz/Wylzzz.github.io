@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music</title>
+<link rel="stylesheet" href="style3.css">
+<style>
+    @keyframes fadeInOut {
+        0%, 100% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        30% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        50% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        70% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+    }
+
+    .animated-text-1 {
+        animation: fadeInOut 15s ease-in ;
+    }
+    .animated-text-2 {
+        animation: fadeInOut 23s ease-in ;
+    }
+    .animated-text-3 {
+        animation: fadeInOut 30s ease-in ;
+    }
+</style>
+</head>
+<body>
+    <div class="box">
+        <p class="animated-text-1"><mark> A MAN LERANS TO FEEL LOVE </mark></p>
+        <p class="animated-text-2"><mark> HE MUST ALSO BEAR THE RISK </mark></p>
+        <p class="animated-text-3"><mark> A FEELING HATE </mark></p>
+    </div>
+<audio id="song" loop>
+    <source src="audio/CardinganObitoo.mp3">
+</audio>
+<script>
+    window.addEventListener('click', () => {
+        document.getElementById("song").play();
+    });
+</script>
+</body>
+</html>
