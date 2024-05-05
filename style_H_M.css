@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(Gambar/bgobito.jpg);
+    background-position-y: -80px;
+    background-size: cover;
+    color: white;
+}
+.container {
+    width: 40%;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+audio {
+    height: 50px;
+    border-radius: 0px;
+}
+h4 {
+    margin-left: 10px;
+}
